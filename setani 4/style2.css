@@ -1,0 +1,93 @@
+body {
+	padding-bottom: 20px;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+
+.nav-link {
+	justify-content: right;
+	color: black;
+}
+
+.landingpage {
+	width: 100%;
+	min-height: 650px;
+	background-size: cover;
+	text-align: center;
+	background-image: url("./images//15861.png");
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: #ffb300;
+}
+
+.left {
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.container {
+	padding-top: 80px;
+}
+
+.block {
+	text-align: justify;
+}
+
+.black {
+	padding: 50px;
+	background-color: black;
+}
+
+.white {
+	color: white;
+	text-align: justify;
+}
+
+.footer {
+	background-color: #ffb300;
+	padding-bottom: 50px;
+}
+
+.d-inline {
+	margin-right: 15px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+.blackhead {
+	color: black;
+	font-weight: bold;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}

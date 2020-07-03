@@ -1,0 +1,126 @@
+body {
+	padding-bottom: 20px;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+
+.nav-link {
+	justify-content: right;
+	color: black;
+}
+
+.landingpage {
+	width: 100%;
+	min-height: 650px;
+	background-size: cover;
+	text-align: center;
+	background-image: url("./images//Mask Group 7.png");
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+.words {
+	color: #ffb300;
+	text-align: center;
+}
+
+.btn {
+	position: absolute;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: #ffb300;
+}
+
+.left {
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.container {
+	padding-top: 80px;
+}
+
+.block {
+	text-align: justify;
+}
+
+.white {
+	color: white;
+	text-align: justify;
+}
+
+.small {
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	background-color: #ffb300;
+	padding-top: 50px;
+	padding-left: 140px;
+	padding-bottom: 50px;
+}
+
+.d-inline {
+	padding-left: 20px;
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.left {
+	width: 25%;
+}
+
+.right {
+	width: 75%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+.column2 {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.left2 {
+	width: 25%;
+}
+
+.right2 {
+	width: 75%;
+}
+
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
