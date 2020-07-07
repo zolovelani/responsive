@@ -11,6 +11,24 @@ body {
 	color: black;
 }
 
+.navbar {
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.yellow {
+	color: #ffb400;
+}
+
+.list-unstyled {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-top: 45px;
+}
+
 .landingpage {
 	width: 100%;
 	min-height: 650px;
@@ -89,5 +107,41 @@ h3 {
 @media screen and (max-width: 600px) {
 	.column {
 		width: 100%;
+	}
+}
+
+.footer-styled {
+	padding-left: 35px;
+	margin-top: 40px;
+}
+
+.social {
+	width: 25px;
+	margin-right: 15px;
+}
+.footer-yellow {
+	background-color: #ffb400;
+	padding: 10px;
+	margin: 0;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.powered-by {
+	font-size: 15px;
+	margin: 0;
+	align-content: center;
+	color: white;
+}
+
+@media screen and (min-width: 992px) {
+	.btn {
+		width: 200px;
+		float: right;
+	}
+
+	.width-body {
+		padding: 40px 30px 30px 40px;
 	}
 }

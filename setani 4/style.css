@@ -1,13 +1,28 @@
 body {
 }
 
-.navbar {
-	margin-bottom: 20px;
-}
-
-.nav-link {
+..nav-link {
 	justify-content: right;
 	color: black;
+}
+
+.navbar {
+	margin-bottom: 20px;
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.yellow {
+	color: #ffb400;
+}
+
+.list-unstyled {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-top: 45px;
 }
 
 .landingpage {
@@ -21,6 +36,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.info {
+	padding-top: 120px;
+}
+
 h1 {
 	align-content: center;
 	height: 50%;
@@ -30,8 +49,12 @@ h1 {
 .btn {
 	border-radius: 30px;
 	color: white;
-	padding: 5px 40px;
+	background-color: #ffb300;
 	opacity: 90%;
+}
+
+.btn-position {
+	align-content: center;
 }
 
 h3 {
@@ -87,4 +110,39 @@ h2 {
 
 .margin-tp {
 	padding: 60px;
+}
+
+.footer-styled {
+	padding-left: 35px;
+	margin-top: 40px;
+}
+
+.social {
+	width: 25px;
+	margin-right: 15px;
+}
+.footer-yellow {
+	background-color: #ffb400;
+	padding: 10px;
+	margin: 0;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.powered-by {
+	font-size: 15px;
+	margin: 0;
+	align-content: center;
+	color: white;
+}
+
+@media screen and (min-width: 992px) {
+	.btn {
+		width: 200px;
+	}
+
+	.width-body {
+		padding: 40px 30px 30px 40px;
+	}
 }
